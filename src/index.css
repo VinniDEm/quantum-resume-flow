@@ -107,12 +107,30 @@
     text-shadow: 0 0 10px rgba(204, 0, 255, 0.5);
   }
 
+  .neon-pink {
+    color: #ff0080;
+    text-shadow: 0 0 10px rgba(255, 0, 128, 0.5);
+  }
+
+  .neon-orange {
+    color: #ff8000;
+    text-shadow: 0 0 10px rgba(255, 128, 0, 0.5);
+  }
+
   .glow-cyan {
     box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
   }
 
   .glow-purple {
     box-shadow: 0 0 20px rgba(204, 0, 255, 0.3);
+  }
+
+  .glow-pink {
+    box-shadow: 0 0 20px rgba(255, 0, 128, 0.3);
+  }
+
+  .glow-orange {
+    box-shadow: 0 0 20px rgba(255, 128, 0, 0.3);
   }
 
   /* Hover effects */
@@ -167,10 +185,48 @@
 
   /* Gradient text */
   .gradient-text {
-    background: linear-gradient(135deg, #00ffcc, #cc00ff);
+    background: linear-gradient(135deg, #00ffcc, #cc00ff, #ff0080, #ff8000);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    animation: gradient-flow 4s ease infinite;
+  }
+
+  /* Matrix effects */
+  .matrix-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.03;
+  }
+
+  .matrix-char {
+    position: absolute;
+    color: #00ffcc;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    animation: matrix-fall linear infinite;
+  }
+
+  .star {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    animation: twinkle 2s ease-in-out infinite alternate;
+  }
+
+  .tech-particle {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: linear-gradient(45deg, #00ffcc, #ff0080);
+    border-radius: 50%;
+    animation: tech-float 8s linear infinite;
   }
 
   /* Animated background */
@@ -184,5 +240,50 @@
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+  }
+
+  @keyframes gradient-flow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes matrix-fall {
+    0% {
+      transform: translateY(-100vh);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+
+  @keyframes twinkle {
+    0% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+
+  @keyframes tech-float {
+    0% {
+      transform: translateY(100vh) translateX(0px);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100vh) translateX(100px);
+      opacity: 0;
+    }
   }
 }

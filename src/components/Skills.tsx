@@ -3,14 +3,14 @@ import React from 'react';
 import ScrollAnimationWrapper from './ScrollAnimationWrapper';
 
 const skills = [
-  { name: 'React', level: 'Expert', icon: '⚛️' },
-  { name: 'TypeScript', level: 'Expert', icon: '📘' },
-  { name: 'Node.js', level: 'Advanced', icon: '🟢' },
-  { name: 'Python', level: 'Advanced', icon: '🐍' },
-  { name: 'GraphQL', level: 'Advanced', icon: '🔍' },
-  { name: 'Docker', level: 'Intermediate', icon: '🐳' },
-  { name: 'AWS', level: 'Advanced', icon: '☁️' },
-  { name: 'Figma', level: 'Expert', icon: '🎨' }
+  { name: 'React', level: 'Expert', icon: '⚛️', color: 'neon-cyan' },
+  { name: 'TypeScript', level: 'Expert', icon: '📘', color: 'neon-purple' },
+  { name: 'Node.js', level: 'Advanced', icon: '🟢', color: 'neon-pink' },
+  { name: 'Python', level: 'Advanced', icon: '🐍', color: 'neon-orange' },
+  { name: 'GraphQL', level: 'Advanced', icon: '🔍', color: 'neon-cyan' },
+  { name: 'Docker', level: 'Intermediate', icon: '🐳', color: 'neon-purple' },
+  { name: 'AWS', level: 'Advanced', icon: '☁️', color: 'neon-pink' },
+  { name: 'Figma', level: 'Expert', icon: '🎨', color: 'neon-orange' }
 ];
 
 const Skills = () => {
@@ -34,7 +34,7 @@ const Skills = () => {
                 <div className="text-4xl mb-4 group-hover:scale-125 transition-transform duration-300">
                   {skill.icon}
                 </div>
-                <h3 className="font-orbitron font-bold text-cyber-cyan mb-2 uppercase tracking-wide text-sm">
+                <h3 className={`font-orbitron font-bold ${skill.color} mb-2 uppercase tracking-wide text-sm`}>
                   {skill.name}
                 </h3>
                 <p className="text-gray-400 text-xs uppercase tracking-wider">

@@ -15,7 +15,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <ScrollAnimationWrapper animation="slide-in-left" delay={200}>
             <div className="glass-strong p-8 hover-lift">
-              <h3 className="font-orbitron font-bold text-2xl neon-cyan mb-6 uppercase tracking-wide">
+              <h3 className="font-orbitron font-bold text-2xl neon-pink mb-6 uppercase tracking-wide">
                 Digital Architect
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6">
@@ -40,35 +40,35 @@ const About = () => {
             <div className="glass p-6 hover-tilt">
               <div className="space-y-6">
                 <div className="flex justify-between items-center">
-                  <span className="font-orbitron text-cyber-cyan uppercase tracking-wide">Frontend</span>
-                  <span className="neon-purple">95%</span>
+                  <span className="font-orbitron neon-cyan uppercase tracking-wide">Frontend</span>
+                  <span className="neon-orange">95%</span>
                 </div>
                 <div className="w-full bg-gray-800 rounded-full h-2">
-                  <div className="bg-gradient-to-r from-cyber-cyan to-neon-purple h-2 rounded-full w-[95%] glow-cyan"></div>
+                  <div className="bg-gradient-to-r from-cyber-cyan to-neon-orange h-2 rounded-full w-[95%] glow-cyan"></div>
                 </div>
 
                 <div className="flex justify-between items-center">
-                  <span className="font-orbitron text-cyber-cyan uppercase tracking-wide">Backend</span>
-                  <span className="neon-purple">88%</span>
+                  <span className="font-orbitron neon-purple uppercase tracking-wide">Backend</span>
+                  <span className="neon-pink">88%</span>
                 </div>
                 <div className="w-full bg-gray-800 rounded-full h-2">
-                  <div className="bg-gradient-to-r from-cyber-cyan to-neon-purple h-2 rounded-full w-[88%] glow-cyan"></div>
+                  <div className="bg-gradient-to-r from-neon-purple to-neon-pink h-2 rounded-full w-[88%] glow-purple"></div>
                 </div>
 
                 <div className="flex justify-between items-center">
-                  <span className="font-orbitron text-cyber-cyan uppercase tracking-wide">UI/UX Design</span>
-                  <span className="neon-purple">92%</span>
+                  <span className="font-orbitron neon-pink uppercase tracking-wide">UI/UX Design</span>
+                  <span className="neon-cyan">92%</span>
                 </div>
                 <div className="w-full bg-gray-800 rounded-full h-2">
-                  <div className="bg-gradient-to-r from-cyber-cyan to-neon-purple h-2 rounded-full w-[92%] glow-cyan"></div>
+                  <div className="bg-gradient-to-r from-neon-pink to-cyber-cyan h-2 rounded-full w-[92%] glow-pink"></div>
                 </div>
 
                 <div className="flex justify-between items-center">
-                  <span className="font-orbitron text-cyber-cyan uppercase tracking-wide">DevOps</span>
+                  <span className="font-orbitron neon-orange uppercase tracking-wide">DevOps</span>
                   <span className="neon-purple">85%</span>
                 </div>
                 <div className="w-full bg-gray-800 rounded-full h-2">
-                  <div className="bg-gradient-to-r from-cyber-cyan to-neon-purple h-2 rounded-full w-[85%] glow-cyan"></div>
+                  <div className="bg-gradient-to-r from-neon-orange to-neon-purple h-2 rounded-full w-[85%] glow-orange"></div>
                 </div>
               </div>
             </div>

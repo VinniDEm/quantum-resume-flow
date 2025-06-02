@@ -1,6 +1,7 @@
 
 import React from 'react';
 import CustomCursor from '../components/CustomCursor';
+import VisualEffects from '../components/VisualEffects';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Skills from '../components/Skills';
@@ -9,10 +10,11 @@ import Contact from '../components/Contact';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-dark-bg text-white overflow-x-hidden">
+    <div className="min-h-screen bg-dark-bg text-white overflow-x-hidden relative">
       <CustomCursor />
+      <VisualEffects />
       
-      <main>
+      <main className="relative z-10">
         <Hero />
         <About />
         <Skills />
@@ -20,7 +22,7 @@ const Index = () => {
         <Contact />
       </main>
       
-      <footer className="py-8 px-4 border-t border-gray-800">
+      <footer className="py-8 px-4 border-t border-gray-800 relative z-10">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400 font-montserrat">
             © 2024 Alex Chen. Crafted with ⚡ and lots of ☕

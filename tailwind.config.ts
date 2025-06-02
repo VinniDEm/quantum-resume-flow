@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -67,9 +66,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Futuristic color palette
+				// Enhanced futuristic color palette
 				'cyber-cyan': '#00ffcc',
 				'neon-purple': '#cc00ff',
+				'neon-pink': '#ff0080',
+				'neon-orange': '#ff8000',
 				'dark-bg': '#0a0a0a',
 				'glass-white': 'rgba(255, 255, 255, 0.1)',
 			},

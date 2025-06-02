@@ -15,12 +15,13 @@ const Hero = () => {
         {[...Array(20)].map((_, i) => (
           <div
             key={i}
-            className="absolute w-1 h-1 bg-cyber-cyan rounded-full animate-float"
+            className="absolute w-1 h-1 rounded-full animate-float"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
               animationDelay: `${Math.random() * 3}s`,
               animationDuration: `${3 + Math.random() * 2}s`,
+              background: ['#00ffcc', '#cc00ff', '#ff0080', '#ff8000'][Math.floor(Math.random() * 4)],
             }}
           />
         ))}
@@ -35,7 +36,7 @@ const Hero = () => {
         
         <ScrollAnimationWrapper animation="fade-in" delay={300}>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light tracking-wide">
-            SOFTWARE DEVELOPER <span className="neon-purple">|</span> DESIGNER
+            SOFTWARE DEVELOPER <span className="neon-pink">|</span> DESIGNER
           </p>
         </ScrollAnimationWrapper>
         
@@ -60,7 +61,7 @@ const Hero = () => {
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <ScrollAnimationWrapper animation="fade-in" delay={1200}>
-          <div className="flex flex-col items-center text-cyber-cyan animate-bounce">
+          <div className="flex flex-col items-center neon-orange animate-bounce">
             <span className="text-sm font-montserrat mb-2 tracking-wide">SCROLL</span>
             <ArrowDown size={20} />
           </div>
