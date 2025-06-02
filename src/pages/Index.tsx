@@ -1,12 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import CustomCursor from '../components/CustomCursor';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Skills from '../components/Skills';
+import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-dark-bg text-white overflow-x-hidden">
+      <CustomCursor />
+      
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Contact />
+      </main>
+      
+      <footer className="py-8 px-4 border-t border-gray-800">
+        <div className="max-w-6xl mx-auto text-center">
+          <p className="text-gray-400 font-montserrat">
+            © 2024 Alex Chen. Crafted with ⚡ and lots of ☕
+          </p>
+          <p className="text-xs text-gray-500 mt-2 font-orbitron uppercase tracking-wider">
+            Building the future, one line of code at a time.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
