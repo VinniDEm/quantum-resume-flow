@@ -46,24 +46,24 @@ const Hero = () => {
         <ScrollAnimationWrapper animation="scale-in">
           <h1 className="font-orbitron font-black text-5xl md:text-7xl lg:text-8xl mb-6 tracking-wider uppercase relative">
             <span className="gradient-text bg-gradient-to-r from-cyber-cyan via-neon-purple via-neon-pink to-neon-orange bg-clip-text text-transparent animate-gradient-x filter drop-shadow-2xl">
-              Alex Chen
+              Vineet Singh
             </span>
             <div className="absolute inset-0 gradient-text bg-gradient-to-r from-cyber-cyan via-neon-purple via-neon-pink to-neon-orange bg-clip-text text-transparent blur-sm opacity-50 -z-10">
-              Alex Chen
+              Vineet Singh
             </div>
           </h1>
         </ScrollAnimationWrapper>
         
         <ScrollAnimationWrapper animation="fade-in" delay={300}>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light tracking-wide drop-shadow-lg">
-            SOFTWARE DEVELOPER <span className="neon-pink">|</span> DESIGNER
+            Cybersecurity Professional <span className="neon-pink">|</span> Student
           </p>
         </ScrollAnimationWrapper>
         
         <ScrollAnimationWrapper animation="fade-in" delay={600}>
           <p className="text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-            Crafting digital experiences with cutting-edge technology and innovative design. 
-            Specializing in web development, UI/UX, and creating immersive digital solutions.
+            Building secure digital environments with expertise in cybersecurity and innovative tools. 
+  Specializing in vulnerability analysis, encryption solutions, and cyber awareness training.
           </p>
         </ScrollAnimationWrapper>
         
