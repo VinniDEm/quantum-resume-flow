@@ -4,46 +4,46 @@ import ScrollAnimationWrapper from './ScrollAnimationWrapper';
 
 const projects = [
   {
-    title: 'NeuroLink Dashboard',
-    description: 'AI-powered analytics platform with real-time data visualization and machine learning insights.',
-    tech: 'React, Python, TensorFlow',
+    title: 'Terminal-Based Encryption Tool',
+    description: 'A command-line utility for secure data encryption using AES and RSA algorithms, designed with a modular interface for seamless file encryption and decryption.',
+    tech: 'Python, Pycryptodome',
+    image: 'https://images.unsplash.com/photo-1516321310762-97b3a76d7345?w=600&h=400&fit=crop',
+    status: 'Completed'
+  },
+  {
+    title: 'Wi-Fi Deauthentication Tool',
+    description: 'A network vulnerability analysis tool built with ESP8266 to simulate Wi-Fi deauthentication attacks, studying impacts on network stability and device behavior.',
+    tech: 'C, ESP8266, Arduino',
     image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop',
+    status: 'Completed'
+  },
+  {
+    title: 'Phishing Simulation Platform',
+    description: 'A training platform mimicking real-world phishing attack vectors, used to educate users through interactive workshops on identifying phishing attempts.',
+    tech: 'Python, Flask, HTML/CSS',
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop',
     status: 'Live'
   },
   {
-    title: 'Quantum Commerce',
-    description: 'Next-generation e-commerce platform with AR product visualization and blockchain payments.',
-    tech: 'Next.js, WebGL, Solidity',
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop',
-    status: 'Beta'
+    title: 'Byte Me: NullByte Hacking Guide',
+    description: 'A comprehensive Medium guide detailing exploitation techniques for the NullByte vulnerable machine, including privilege escalation and vulnerability analysis.',
+    tech: 'Nmap, Metasploit, Linux',
+    image: 'https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=600&h=400&fit=crop',
+    status: 'Published'
   },
   {
-    title: 'CyberSpace Social',
-    description: 'Immersive 3D social platform for virtual collaboration and digital communities.',
-    tech: 'Three.js, WebRTC, Node.js',
-    image: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?w=600&h=400&fit=crop',
+    title: 'Credit Card Fraud Detection Machine',
+    description: 'A machine learning model to detect fraudulent credit card transactions, utilizing anomaly detection and classification techniques to enhance financial security.',
+    tech: 'Python, Scikit-learn, Pandas, SQL',
+    image: 'https://images.unsplash.com/photo-1591696205602-2f2a61262b29?w=600&h=400&fit=crop',
+    status: 'Completed'
+  },
+  {
+    title: 'Internal Threat Analysis System',
+    description: 'A system for identifying and mitigating insider threats, analyzing user behavior and network activity to detect potential security risks within organizations.',
+    tech: 'Python, Wireshark, SQL, Elasticsearch',
+    image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=600&h=400&fit=crop',
     status: 'Development'
-  },
-  {
-    title: 'CodeMatrix IDE',
-    description: 'Cloud-based development environment with AI-assisted coding and collaborative features.',
-    tech: 'TypeScript, Monaco, Docker',
-    image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop',
-    status: 'Live'
-  },
-  {
-    title: 'HoloDesign Studio',
-    description: 'Advanced design tool for creating holographic interfaces and immersive experiences.',
-    tech: 'WebGL, React, Blender API',
-    image: 'https://images.unsplash.com/photo-1439337153520-7082a56a81f4?w=600&h=400&fit=crop',
-    status: 'Concept'
-  },
-  {
-    title: 'DataFlow Nexus',
-    description: 'Enterprise data management platform with automated workflows and predictive analytics.',
-    tech: 'Vue.js, GraphQL, PostgreSQL',
-    image: 'https://images.unsplash.com/photo-1493397212122-2b85dda8106b?w=600&h=400&fit=crop',
-    status: 'Live'
   }
 ];
 
