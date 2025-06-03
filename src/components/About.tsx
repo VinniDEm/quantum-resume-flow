@@ -16,24 +16,26 @@ const About = () => {
           <ScrollAnimationWrapper animation="slide-in-left" delay={200}>
             <div className="glass-strong p-8 hover-lift">
               <h3 className="font-orbitron font-bold text-2xl neon-pink mb-6 uppercase tracking-wide">
-                Digital Architect
+                Aspiring Cybersecurity Professional
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                With over 5 years of experience in software development, I specialize in creating 
-                innovative digital solutions that push the boundaries of what's possible on the web. 
-                My passion lies in combining cutting-edge technology with intuitive design to deliver 
-                exceptional user experiences.
+                Currently pursuing a Bachelor's in Computer Application at Birla Institute of Technology, Mesra, 
+                I am passionate about safeguarding digital environments through innovative cybersecurity solutions. 
+                My expertise lies in leveraging tools like Nmap, Metasploit, Wireshark, and Burp Suite to identify 
+                and mitigate vulnerabilities.
               </p>
               <p className="text-gray-300 leading-relaxed mb-6">
-                I thrive in the intersection of creativity and technology, constantly exploring new 
-                frameworks, design patterns, and emerging technologies. My approach to development 
-                is holistic—considering not just the code, but the entire user journey and business impact.
+                I thrive at the intersection of technology and security, applying my skills in Python, SQL, and C to 
+                develop tools like a terminal-based encryption utility using AES and RSA. My projects, such as a Wi-Fi 
+                deauthentication tool and phishing simulation platform, reflect my commitment to understanding and 
+                combating real-world cyber threats.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                When I'm not coding, you'll find me experimenting with new design tools, contributing 
-                to open-source projects, or exploring the latest trends in AI and machine learning.
+                When I'm not exploring cybersecurity, you'll find me contributing to Stray Army NGO, where I enhance 
+                website security and conduct awareness sessions, or volunteering to support animal welfare initiatives.
               </p>
             </div>
+</div>
           </ScrollAnimationWrapper>
 
           <ScrollAnimationWrapper animation="slide-in-right" delay={400}>
