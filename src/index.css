@@ -183,14 +183,15 @@
     z-index: 9998;
   }
 
-  /* Gradient text */
+  /* Enhanced gradient text */
   .gradient-text {
-    background: linear-gradient(135deg, #00ffcc, #cc00ff, #ff0080, #ff8000);
+    background: linear-gradient(135deg, #00ffcc 0%, #cc00ff 25%, #ff0080 50%, #ff8000 75%, #00ffcc 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-size: 300% 300%;
-    animation: gradient-flow 4s ease infinite;
+    background-size: 400% 400%;
+    animation: gradient-flow 6s ease infinite;
+    filter: drop-shadow(0 0 20px rgba(0, 255, 204, 0.3)) drop-shadow(0 0 40px rgba(204, 0, 255, 0.2));
   }
 
   /* Matrix effects */
@@ -243,6 +244,14 @@
   }
 
   @keyframes gradient-flow {
+    0% { background-position: 0% 50%; }
+    25% { background-position: 100% 50%; }
+    50% { background-position: 100% 100%; }
+    75% { background-position: 0% 100%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes gradient-x {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
