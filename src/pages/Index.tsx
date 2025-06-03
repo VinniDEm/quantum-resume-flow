@@ -25,10 +25,10 @@ const Index = () => {
       <footer className="py-8 px-4 border-t border-gray-800 relative z-10">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400 font-montserrat">
-            © 2024 Alex Chen. Crafted with ⚡ and lots of ☕
+            © 2024 Vineet Kumar Singh. Securing the digital frontier ⚡
           </p>
           <p className="text-xs text-gray-500 mt-2 font-orbitron uppercase tracking-wider">
-            Building the future, one line of code at a time.
+            Building secure solutions, one line of code at a time.
           </p>
         </div>
       </footer>

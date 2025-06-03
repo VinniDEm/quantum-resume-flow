@@ -47,8 +47,9 @@ const Contact = () => {
                   Get In Touch
                 </h3>
                 <p className="text-gray-300 leading-relaxed mb-8">
-                  Ready to collaborate on your next project? Whether you need a complete digital 
-                  solution or want to discuss innovative ideas, I'm here to help bring your vision to life.
+                  Interested in cybersecurity collaboration or need assistance with security assessments? 
+                  Whether it's vulnerability analysis, security tool development, or cybersecurity training, 
+                  I'm here to help secure your digital environment.
                 </p>
               </div>
               
@@ -69,7 +70,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm uppercase tracking-wide">Phone</p>
-                    <p className="text-white">+91 99423 14655</p>
+                    <p className="text-white">+91-9942314655</p>
                   </div>
                 </div>
                 
@@ -80,6 +81,16 @@ const Contact = () => {
                   <div>
                     <p className="text-gray-400 text-sm uppercase tracking-wide">Location</p>
                     <p className="text-white">Jamshedpur, India</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-neon-pink/10 border border-neon-pink rounded-lg flex items-center justify-center">
+                    <span className="text-neon-pink">🎓</span>
+                  </div>
+                  <div>
+                    <p className="text-gray-400 text-sm uppercase tracking-wide">Education</p>
+                    <p className="text-white">BIT Mesra (2024-2028)</p>
                   </div>
                 </div>
               </div>
@@ -132,7 +143,7 @@ const Contact = () => {
                   required
                   rows={5}
                   className="w-full bg-transparent border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-cyber-cyan focus:outline-none focus:ring-1 focus:ring-cyber-cyan transition-all duration-300 resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Tell me about your cybersecurity needs..."
                 />
               </div>
               

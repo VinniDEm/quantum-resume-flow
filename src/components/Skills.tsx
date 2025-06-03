@@ -10,6 +10,10 @@ const skills = [
   { name: 'Metasploit', level: 'Advanced', icon: '🛡️', color: 'neon-orange' },
   { name: 'Wireshark', level: 'Intermediate', icon: '📡', color: 'neon-cyan' },
   { name: 'Linux', level: 'Advanced', icon: '🐧', color: 'neon-purple' },
+  { name: 'Burp Suite', level: 'Intermediate', icon: '🔧', color: 'neon-pink' },
+  { name: 'SQLMap', level: 'Intermediate', icon: '💾', color: 'neon-orange' },
+  { name: 'Aircrack-ng', level: 'Intermediate', icon: '📶', color: 'neon-cyan' },
+  { name: 'Nikto', level: 'Intermediate', icon: '🕵️', color: 'neon-purple' },
   { name: 'Problem-Solving', level: 'Expert', icon: '💡', color: 'neon-pink' }
 ];
 
@@ -50,8 +54,8 @@ const Skills = () => {
           <div className="mt-16 text-center">
             <p className="text-gray-400 max-w-3xl mx-auto leading-relaxed">
               Constantly evolving my skill set through continuous learning and hands-on experience 
-              with the latest technologies. I believe in staying ahead of the curve to deliver 
-              cutting-edge solutions that drive innovation.
+              with the latest cybersecurity tools and technologies. I believe in staying ahead of emerging 
+              threats to deliver robust security solutions.
             </p>
           </div>
         </ScrollAnimationWrapper>

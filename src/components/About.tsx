@@ -19,30 +19,28 @@ const About = () => {
                 Aspiring Cybersecurity Professional
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                Currently pursuing a Bachelor's in Computer Application at Birla Institute of Technology, Mesra, 
-                I am passionate about safeguarding digital environments through innovative cybersecurity solutions. 
-                My expertise lies in leveraging tools like Nmap, Metasploit, Wireshark, and Burp Suite to identify 
-                and mitigate vulnerabilities.
+                I'm a first-year Bachelor's in Computer Application student at Birla Institute of Technology, Mesra 
+                (2024–2028), passionate about safeguarding digital environments. I specialize in cybersecurity tools 
+                like Nmap, Metasploit, and Wireshark, and programming in Python, SQL, and C.
               </p>
               <p className="text-gray-300 leading-relaxed mb-6">
-                I thrive at the intersection of technology and security, applying my skills in Python, SQL, and C to 
-                develop tools like a terminal-based encryption utility using AES and RSA. My projects, such as a Wi-Fi 
-                deauthentication tool and phishing simulation platform, reflect my commitment to understanding and 
-                combating real-world cyber threats.
+                My projects, such as encryption tools and phishing simulations, reflect my commitment to combating 
+                cyber threats. I thrive at the intersection of technology and security, with strong problem-solving 
+                skills honed through internships and volunteer work at Stray Army NGO.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                When I'm not exploring cybersecurity, you'll find me contributing to Stray Army NGO, where I enhance 
-                website security and conduct awareness sessions, or volunteering to support animal welfare initiatives.
+                When not coding, I contribute to animal welfare and explore AI and machine learning trends. Currently 
+                working as a Cybersecurity and Website Development Intern at Stray Army NGO, where I implement security 
+                measures and conduct awareness sessions.
               </p>
             </div>
-</div>
           </ScrollAnimationWrapper>
 
           <ScrollAnimationWrapper animation="slide-in-right" delay={400}>
             <div className="glass p-6 hover-tilt">
               <div className="space-y-6">
                 <div className="flex justify-between items-center">
-                  <span className="font-orbitron neon-cyan uppercase tracking-wide">Frontend</span>
+                  <span className="font-orbitron neon-cyan uppercase tracking-wide">Python</span>
                   <span className="neon-orange">95%</span>
                 </div>
                 <div className="w-full bg-gray-800 rounded-full h-2">
@@ -50,27 +48,27 @@ const About = () => {
                 </div>
 
                 <div className="flex justify-between items-center">
-                  <span className="font-orbitron neon-purple uppercase tracking-wide">Backend</span>
-                  <span className="neon-pink">88%</span>
+                  <span className="font-orbitron neon-purple uppercase tracking-wide">Cybersecurity</span>
+                  <span className="neon-pink">92%</span>
                 </div>
                 <div className="w-full bg-gray-800 rounded-full h-2">
-                  <div className="bg-gradient-to-r from-neon-purple to-neon-pink h-2 rounded-full w-[88%] glow-purple"></div>
+                  <div className="bg-gradient-to-r from-neon-purple to-neon-pink h-2 rounded-full w-[92%] glow-purple"></div>
                 </div>
 
                 <div className="flex justify-between items-center">
-                  <span className="font-orbitron neon-pink uppercase tracking-wide">UI/UX Design</span>
-                  <span className="neon-cyan">92%</span>
+                  <span className="font-orbitron neon-pink uppercase tracking-wide">Network Security</span>
+                  <span className="neon-cyan">90%</span>
                 </div>
                 <div className="w-full bg-gray-800 rounded-full h-2">
-                  <div className="bg-gradient-to-r from-neon-pink to-cyber-cyan h-2 rounded-full w-[92%] glow-pink"></div>
+                  <div className="bg-gradient-to-r from-neon-pink to-cyber-cyan h-2 rounded-full w-[90%] glow-pink"></div>
                 </div>
 
                 <div className="flex justify-between items-center">
-                  <span className="font-orbitron neon-orange uppercase tracking-wide">DevOps</span>
-                  <span className="neon-purple">85%</span>
+                  <span className="font-orbitron neon-orange uppercase tracking-wide">Problem Solving</span>
+                  <span className="neon-purple">98%</span>
                 </div>
                 <div className="w-full bg-gray-800 rounded-full h-2">
-                  <div className="bg-gradient-to-r from-neon-orange to-neon-purple h-2 rounded-full w-[85%] glow-orange"></div>
+                  <div className="bg-gradient-to-r from-neon-orange to-neon-purple h-2 rounded-full w-[98%] glow-orange"></div>
                 </div>
               </div>
             </div>
