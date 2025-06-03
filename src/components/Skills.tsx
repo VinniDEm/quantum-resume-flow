@@ -3,14 +3,14 @@ import React from 'react';
 import ScrollAnimationWrapper from './ScrollAnimationWrapper';
 
 const skills = [
-  { name: 'React', level: 'Expert', icon: '⚛️', color: 'neon-cyan' },
-  { name: 'TypeScript', level: 'Expert', icon: '📘', color: 'neon-purple' },
-  { name: 'Node.js', level: 'Advanced', icon: '🟢', color: 'neon-pink' },
   { name: 'Python', level: 'Advanced', icon: '🐍', color: 'neon-orange' },
-  { name: 'GraphQL', level: 'Advanced', icon: '🔍', color: 'neon-cyan' },
-  { name: 'Docker', level: 'Intermediate', icon: '🐳', color: 'neon-purple' },
-  { name: 'AWS', level: 'Advanced', icon: '☁️', color: 'neon-pink' },
-  { name: 'Figma', level: 'Expert', icon: '🎨', color: 'neon-orange' }
+  { name: 'SQL', level: 'Intermediate', icon: '🗄️', color: 'neon-cyan' },
+  { name: 'C', level: 'Intermediate', icon: '⚙️', color: 'neon-purple' },
+  { name: 'Nmap', level: 'Advanced', icon: '🔎', color: 'neon-pink' },
+  { name: 'Metasploit', level: 'Advanced', icon: '🛡️', color: 'neon-orange' },
+  { name: 'Wireshark', level: 'Intermediate', icon: '📡', color: 'neon-cyan' },
+  { name: 'Linux', level: 'Advanced', icon: '🐧', color: 'neon-purple' },
+  { name: 'Problem-Solving', level: 'Expert', icon: '💡', color: 'neon-pink' }
 ];
 
 const Skills = () => {
