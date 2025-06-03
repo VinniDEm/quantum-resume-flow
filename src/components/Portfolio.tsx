@@ -64,7 +64,7 @@ const Portfolio = () => {
               animation="scale-in"
               delay={index * 150}
             >
-              <div className="glass-strong interactive group hover-lift cursor-pointer overflow-hidden">
+              <div className="bg-gray-900/50 border border-gray-800 interactive group hover-lift cursor-pointer overflow-hidden rounded-lg">
                 <div className="relative overflow-hidden">
                   <img
                     src={project.image}
