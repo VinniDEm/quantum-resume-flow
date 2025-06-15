@@ -151,36 +151,26 @@
     transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
   }
 
-  /* Custom cursor */
-  .custom-cursor {
+  /* Elegant cursor */
+  .elegant-cursor {
     position: fixed;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
-    background: transparent;
-    border: 2px solid #00ffcc;
+    width: 12px;
+    height: 12px;
+    background: rgba(0, 255, 204, 0.8);
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;
-    transition: transform 0.1s ease;
-    box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
+    transition: all 0.15s ease;
+    mix-blend-mode: difference;
   }
 
-  .custom-cursor.hover {
-    transform: scale(1.5);
-    border-color: #cc00ff;
-    box-shadow: 0 0 30px rgba(204, 0, 255, 0.5);
-  }
-
-  .cursor-trail {
-    position: fixed;
-    width: 4px;
-    height: 4px;
-    background: #00ffcc;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 9998;
+  .elegant-cursor.hover {
+    width: 24px;
+    height: 24px;
+    background: rgba(204, 0, 255, 0.6);
+    transform: translate(-6px, -6px);
   }
 
   /* Enhanced gradient text */
